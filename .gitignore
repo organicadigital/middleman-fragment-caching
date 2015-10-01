@@ -1,0 +1,11 @@
+# Ignore bundler lock file
+/Gemfile.lock
+
+# Ignore pkg folder
+/pkg
+
+# Ignore tmp folder
+/tmp
+
+# Ignore gems
+*.gem
