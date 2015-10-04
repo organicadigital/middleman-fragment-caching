@@ -32,7 +32,7 @@ activate :middleman_fragment_caching
 On your app views:
 
 ```ruby
-<%= fragment_cache('my_key') do %>
+<% fragment_cache('my_key') do %>
   ... some expensive content
 <% end %>
 
