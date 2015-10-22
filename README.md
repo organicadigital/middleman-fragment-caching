@@ -7,12 +7,12 @@ A Middleman fragment caching extension like Rails.
 
 When we need build many pages, fragment caching can decrease the build time.
 
-## Instalation
+## Installation
 
 Add this line on Gemfile:
 
 ```ruby
-gem 'middleman-fragment-caching', '~> 1.0'
+gem 'middleman-fragment-caching', '~> 0.0.1'
 ```
 
 Run bundler:
