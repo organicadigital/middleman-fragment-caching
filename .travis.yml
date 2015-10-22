@@ -1,0 +1,11 @@
+language: ruby
+sudo: false
+cache: bundler
+bundler_args: --without development
+rvm:
+  - '2.2'
+  - '2.1'
+  - '2.0'
+script: "bundle exec rake spec"
+notifications:
+  email: false
