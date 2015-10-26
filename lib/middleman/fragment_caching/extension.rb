@@ -1,8 +1,13 @@
 module Middleman
   module FragmentCaching
     class Extension < ::Middleman::Extension
+
       def after_build(_)
         Cache.instance.clear!
+      end
+
+      def before_build
+        FileUtils.rm_rf('tmp/cache')
       end
 
       helpers do
