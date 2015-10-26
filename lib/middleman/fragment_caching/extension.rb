@@ -6,7 +6,7 @@ module Middleman
         Cache.instance.clear!
       end
 
-      def before_build
+      def before_build(_)
         FileUtils.rm_rf('tmp/cache')
       end
 
